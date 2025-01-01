@@ -57,6 +57,54 @@ public class Main {
         return this.name;
     }
 
+    public class Main{
+    int x = 12;
+    //constructor
+    String myName;
+    int myAge;
+    public Main(int age,String name){
+        myAge = age;
+        myName = name;
+    }
+    //static method
+    static void CallMyObj(){
+        System.out.println("Hello World");
+    }
+    //public method
+    public void myObj(){
+        System.out.println("need to create an object");
+    }
+    //encapsulation
+    class Name{
+        private String myName;
+        private int myAge;
+
+    }
+    public int getMyAge() {
+        return myAge;
+    }
+    public void setMyAge(int myAge) {
+        this.myAge = myAge;
+    }
+    public String getMyName() {
+        return myName;
+    }
+    public void setMyName(String myName) {
+        this.myName = myName;
+    }
+
+    public static void main(String[] args) {
+        Main myobj4 = new Main(4,"Nitu");
+        System.out.println(myobj4.myName + "  "+ myobj4.myAge);
+        CallMyObj();
+        myobj4.setMyAge(20);
+        myobj4.setMyName("Nitu");
+        System.out.println(myobj4.getMyAge() + "  "+ myobj4.getMyName());
+    }
+}
+
+
+
     public void getName(String name) {
         this.name = name;
     }
