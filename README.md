@@ -24,9 +24,6 @@ public class Main {
         ab3.reverse();
         ab3.delete(1, 2);
     }
-
-
-
 public static void main(String[] args) {
     Main m = new Main();
     System.out.println("Hello and welcome!");
@@ -36,9 +33,7 @@ public static void main(String[] args) {
 }
 }
 
-
-
-///simple set and get function for private data
+//simple set and get function for private data
 
 public class Main {
 
